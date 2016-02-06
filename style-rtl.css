@@ -460,7 +460,7 @@ textarea:focus,
 }
 
 a {
-  color: #0964dd;
+  color: #e15b3d;
   border-bottom: 1px dotted;
   font-weight: 700;
   text-decoration: none;
@@ -508,7 +508,7 @@ blockquote::before {
 }
 
 pre {
-  background: #1c1c1c;
+  background: #212121;
   color: #c9c9c9;
   overflow: scroll;
   padding: 0 20px;
@@ -528,7 +528,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1c1c1c;
+  color: #212121;
   font-family: Niconne, serif;
   font-weight: 700;
   line-height: 1.25;
@@ -601,7 +601,7 @@ textarea {
 .button,
 .entry-content a.button,
 input[type="submit"] {
-  background: #0964dd;
+  background: #e15b3d
   border: 1px solid #fff;
   color: #fff;
   cursor: pointer;
@@ -620,7 +620,7 @@ input:focus[type="submit"],
 .button:focus,
 .entry-content a.button:focus {
   background-color: #fff;
-  color: #0964dd;
+  color: #e15b3d;
 }
 
 .button {
@@ -631,8 +631,8 @@ input:focus[type="submit"],
 .entry-content a.button:hover,
 input:hover[type="submit"] {
   background-color: #fff;
-  border: 1px solid #0964dd;
-  color: #0964dd;
+  border: 1px solid #e15b3d;
+  color: #e15b3d;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -838,13 +838,13 @@ Sidebar
 
 .sidebar .widget {
   background: #fff;
-  border-top: 1px solid #1c1c1c;
+  border-top: 1px solid #212121;
   margin-bottom: 40px;
   padding: 40px;
 }
 
 .sidebar .widget-wrap {
-  border-top: 5px solid #1c1c1c;
+  border-top: 5px solid #212121;
   margin-right: 4px;
 }
 
@@ -1215,7 +1215,7 @@ img.alignnone,
 .author-box,
 .archive-description {
   background-color: #ebebeb;
-  color: #1c1c1c;
+  color: #212121;
   margin-bottom: 40px;
   padding: 40px;
 }
@@ -1242,7 +1242,7 @@ Widgets
 /* Utility Bar
 --------------------------------------------- */
 .utility-bar {
-  background-color: rgba(9, 100, 221, 0.9);
+  background-color: rgba(225, 91, 60, 0.9);
   border-bottom: 1px solid #d9d9d9;
   color: #fff;
   font-size: 14px;
@@ -1310,7 +1310,7 @@ Widgets
 }
 
 .home-gallery .fa {
-  color: #0964dd;
+  color: #e15b3d;
 }
 
 .home-gallery .widget {
@@ -1413,7 +1413,7 @@ Widgets
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
-  background: #1c1c1c;
+  background: #212121;
   color: #fff;
   padding: 40px 0;
 }
@@ -1519,7 +1519,7 @@ li a .fa {
 }
 
 .sidebar .widget.enews-widget {
-  background-color: #1c1c1c;
+  background-color: #212121;
   border-top: 1px solid #fff;
 }
 
@@ -1602,7 +1602,7 @@ Site Header
 .site-title a,
 .site-title a:hover {
   border: 0;
-  color: #1c1c1c;
+  color: #212121;
   font-family: Niconne, serif;
   font-size: 28px;
 }
@@ -1917,7 +1917,7 @@ Content Area
 
 .entry-title a {
   border: 0;
-  color: #1c1c1c;
+  color: #212121;
 }
 
 .entry-title a:hover {
@@ -1931,34 +1931,34 @@ Content Area
 
 .sidebar .widgettitle a {
   border: 0;
-  color: #1c1c1c;
+  color: #212121;
 }
 
 .archive-title {
-  color: #1c1c1c;
+  color: #212121;
   margin-bottom: 24px;
 }
 
 /* Entries
 --------------------------------------------- */
 .sticky.entry {
-  border-top: 1px solid #0964dd;
+  border-top: 1px solid #e15b3d;
 }
 
 .entry {
   background: #fff;
-  border-top: 1px solid #1c1c1c;
+  border-top: 1px solid #212121;
   margin-bottom: 40px;
   padding: 40px 40px 24px;
   word-wrap: break-word;
 }
 
 .entry-content a {
-  color: #0964dd;
+  color: #e15b3d;
 }
 
 .entry-content a:hover {
-  color: #1c1c1c;
+  color: #212121;
 }
 
 .entry-content .attachment a,
@@ -2003,7 +2003,7 @@ Content Area
 }
 
 .entry-content code {
-  background-color: #1c1c1c;
+  background-color: #212121;
   color: #d9d9d9;
 }
 
@@ -2056,7 +2056,7 @@ Content Area
 
 .pagination .nav-links a,
 .pagination .nav-links .current {
-  background: #1c1c1c;
+  background: #212121;
   border: 1px solid #fff;
   color: #fff;
   cursor: pointer;
@@ -2066,8 +2066,8 @@ Content Area
 
 .pagination .nav-links a:hover {
   background: #fff;
-  border: 1px solid #1c1c1c;
-  color: #1c1c1c;
+  border: 1px solid #212121;
+  color: #212121;
 }
 
 .pagination .nav-links .current {
@@ -2139,7 +2139,7 @@ p.form-submit,
 Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  background-color: rgba(9, 100, 221, 0.9);
+  background-color: rgba(225, 91, 60, 0.9);
   color: #fff;
   font-size: 14px;
   padding: 40px 0;
@@ -2209,7 +2209,7 @@ Accessibility Extras - Taken from the Leiden theme & Genesis Accessible plugin (
 
 /* Display outline on focus */
 :focus {
-  color: #1c1c1c;
+  color: #212121;
   outline: #a1a1a1 dotted thin;
 }
 
