@@ -1597,7 +1597,6 @@ Site Header
   letter-spacing: 2px;
   line-height: 1;
   margin: 0 0 8px;
-  text-transform: uppercase;
 }
 
 .site-title a,
@@ -1736,7 +1735,6 @@ Site Navigation
 }
 
 .genesis-nav-menu > .menu-item > a {
-  text-transform: uppercase;
 }
 @media screen and (min-width: 1023px) {
   .genesis-nav-menu > .menu-item > a {
@@ -1929,7 +1927,6 @@ Content Area
 .widgettitle {
   letter-spacing: 1px;
   margin: 10px 0 24px;
-  text-transform: uppercase;
 }
 
 .sidebar .widgettitle a {
