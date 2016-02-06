@@ -329,15 +329,15 @@ If you've chosen your favorite color scheme, you can delete the others
 .utility-pro-purple .entry-content a.button,
 .utility-pro-purple input[type="submit"] {
   background: #339;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #fdfdfa;
+  color: #fdfdfa;
 }
 
 .utility-pro-purple .call-to-action-bar .button:hover,
 .utility-pro-purple .button:hover,
 .utility-pro-purple .entry-content a.button:hover,
 .utility-pro-purple input[type="submit"]:hover {
-  background: #fff;
+  background: #fdfdfa;
   border: 1px solid #339;
   color: #339;
 }
@@ -364,15 +364,15 @@ If you've chosen your favorite color scheme, you can delete the others
 .utility-pro-green a.button,
 .utility-pro-green input[type="submit"] {
   background: #107952;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #fdfdfa;
+  color: #fdfdfa;
 }
 
 .utility-pro-green .call-to-action-bar .button:hover,
 .utility-pro-green .button:hover,
 .utility-pro-green .entry-content a.button:hover,
 .utility-pro-green input[type="submit"]:hover {
-  background: #fff;
+  background: #fdfdfa;
   border: 1px solid #107952;
   color: #107952;
 }
@@ -399,15 +399,15 @@ If you've chosen your favorite color scheme, you can delete the others
 .utility-pro-red a.button,
 .utility-pro-red input[type="submit"] {
   background: #d3131b;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #fdfdfa;
+  color: #fdfdfa;
 }
 
 .utility-pro-red .call-to-action-bar .button:hover,
 .utility-pro-red .button:hover,
 .utility-pro-red .entry-content a.button:hover,
 .utility-pro-red input[type="submit"]:hover {
-  background: #fff;
+  background: #fdfdfa;
   border: 1px solid #d3131b;
   color: #d3131b;
 }
@@ -425,7 +425,7 @@ Defaults
 /* Typographical Elements
 --------------------------------------------- */
 body {
-  background: #fff;
+  background: #fdfdfa;
   color: #545454;
   font-family: "Alegreya Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -451,12 +451,12 @@ textarea:focus,
 
 ::-moz-selection {
   background: #000;
-  color: #fff;
+  color: #fdfdfa;
 }
 
 ::selection {
   background: #000;
-  color: #fff;
+  color: #fdfdfa;
 }
 
 a {
@@ -582,7 +582,7 @@ img {
 --------------------------------------------- */
 input,
 textarea {
-  background: #fff;
+  background: #fdfdfa;
   border: 1px solid #d9d9d9;
   color: #545454;
   font-size: 14px;
@@ -602,8 +602,8 @@ textarea {
 .entry-content a.button,
 input[type="submit"] {
   background: #e15b3d;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #fdfdfa;
+  color: #fdfdfa;
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
@@ -619,7 +619,7 @@ input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus,
 .entry-content a.button:focus {
-  background-color: #fff;
+  background-color: #fdfdfa;
   color: #e15b3d;
 }
 
@@ -630,7 +630,7 @@ input:focus[type="submit"],
 .button:hover,
 .entry-content a.button:hover,
 input:hover[type="submit"] {
-  background-color: #fff;
+  background-color: #fdfdfa;
   border: 1px solid #e15b3d;
   color: #e15b3d;
 }
@@ -646,7 +646,7 @@ input[type="search"]::-webkit-search-results-button {
 
 .search-form [type="submit"] {
   background-color: transparent;
-  background: url(images/icon-search-ltr.png) no-repeat 75% 53% #fff;
+  background: url(images/icon-search-ltr.png) no-repeat 75% 53% #fdfdfa;
   border: 1px solid #d9d9d9;
   box-shadow: none;
   height: 53px;
@@ -719,7 +719,7 @@ th {
 }
 
 .table .table {
-  background-color: #fff;
+  background-color: #fdfdfa;
 }
 
 .table-condensed > thead > tr > th,
@@ -785,7 +785,7 @@ Structure and Layout
 }
 
 .site-inner {
-  background: whitesmoke;
+  background: #f2f1ef;
   padding-top: 40px;
 }
 
@@ -837,7 +837,7 @@ Sidebar
 }
 
 .sidebar .widget {
-  background: #fff;
+  background: #fdfdfa;
   border-top: 1px solid #212121;
   margin-bottom: 40px;
   padding: 40px;
@@ -1180,7 +1180,7 @@ img.alignnone,
   -moz-transition: all, 0.2s ease-in-out;
   transition: all, 0.2s ease-in-out;
   background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #fdfdfa;
   font-size: 12px;
   line-height: 1.65;
   max-height: 50%;
@@ -1244,7 +1244,7 @@ Widgets
 .utility-bar {
   background-color: rgba(225, 91, 60, 0.9);
   border-bottom: 1px solid #d9d9d9;
-  color: #fff;
+  color: #fdfdfa;
   font-size: 14px;
   margin: 0 auto;
   padding: 10px 0;
@@ -1253,7 +1253,7 @@ Widgets
 }
 
 .utility-bar a {
-  color: #fff;
+  color: #fdfdfa;
 }
 
 .utility-bar a:hover {
@@ -1262,7 +1262,7 @@ Widgets
 
 .utility-bar p,
 .utility-bar .widgettitle {
-  color: #fff;
+  color: #fdfdfa;
   margin: 0;
 }
 
@@ -1280,7 +1280,7 @@ Widgets
 }
 
 .home-welcome .widgettitle {
-  color: #fff;
+  color: #fdfdfa;
   text-transform: none;
 }
 @media screen and (min-width: 480px) {
@@ -1305,7 +1305,7 @@ Widgets
 /* Home Gallery
 --------------------------------------------- */
 .home-gallery {
-  background: #fff;
+  background: #fdfdfa;
   padding: 40px 0 20px;
 }
 
@@ -1348,7 +1348,7 @@ Widgets
 .call-to-action-bar {
   background: #333333;
   background: rgba(51, 51, 51, 0.8);
-  color: #fff;
+  color: #fdfdfa;
   padding: 40px 0;
   text-align: center;
 }
@@ -1414,7 +1414,7 @@ Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
   background: #212121;
-  color: #fff;
+  color: #fdfdfa;
   padding: 40px 0;
 }
 
@@ -1441,7 +1441,7 @@ Footer Widgets
 }
 
 .footer-widgets a {
-  color: #fff;
+  color: #fdfdfa;
 }
 
 .footer-widgets a:hover {
@@ -1453,7 +1453,7 @@ Footer Widgets
 }
 
 .footer-widgets .widgettitle {
-  color: #fff;
+  color: #fdfdfa;
   font-size: 20px;
 }
 
@@ -1493,7 +1493,7 @@ li a .fa {
 }
 
 .enews-widget a {
-  color: #fff;
+  color: #fdfdfa;
 }
 
 .enews-widget a:hover {
@@ -1501,7 +1501,7 @@ li a .fa {
 }
 
 .enews-widget .widgettitle {
-  color: #fff;
+  color: #fdfdfa;
   margin: 0;
 }
 
@@ -1520,11 +1520,11 @@ li a .fa {
 
 .sidebar .widget.enews-widget {
   background-color: #212121;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #fdfdfa;
 }
 
 .sidebar .enews-widget .widget-wrap {
-  border-top: 5px solid #fff;
+  border-top: 5px solid #fdfdfa;
 }
 
 /* ## Gravity Forms
@@ -1570,7 +1570,7 @@ div.gform_wrapper textarea:focus {
 Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-  background: #fff;
+  background: #fdfdfa;
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -1710,7 +1710,7 @@ Site Navigation
 }
 
 .genesis-nav-menu a {
-  color: #fff;
+  color: #fdfdfa;
   display: inline-block;
   font-weight: 400;
   letter-spacing: 1px;
@@ -1811,7 +1811,7 @@ Site Navigation
 }
 
 .menu-toggle {
-  color: #fff;
+  color: #fdfdfa;
   display: block;
   font-size: 30px;
   margin: 0 auto;
@@ -1946,7 +1946,7 @@ Content Area
 }
 
 .entry {
-  background: #fff;
+  background: #fdfdfa;
   border-top: 1px solid #212121;
   margin-bottom: 40px;
   padding: 40px 40px 24px;
@@ -2057,23 +2057,23 @@ Content Area
 .pagination .nav-links a,
 .pagination .nav-links .current {
   background: #212121;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #fdfdfa;
+  color: #fdfdfa;
   cursor: pointer;
   display: inline-block;
   padding: 8px 12px;
 }
 
 .pagination .nav-links a:hover {
-  background: #fff;
+  background: #fdfdfa;
   border: 1px solid #212121;
   color: #212121;
 }
 
 .pagination .nav-links .current {
   background: #545454;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #fdfdfa;
+  color: #fdfdfa;
   cursor: none;
 }
 
@@ -2086,7 +2086,7 @@ Content Area
 .comment-respond,
 .entry-comments,
 .entry-pings {
-  background: #fff;
+  background: #fdfdfa;
   padding: 40px;
   margin-bottom: 40px;
 }
@@ -2140,14 +2140,14 @@ Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
   background-color: rgba(225, 91, 60, 0.9);
-  color: #fff;
+  color: #fdfdfa;
   font-size: 14px;
   padding: 40px 0;
   text-align: center;
 }
 
 .site-footer a {
-  color: #fff;
+  color: #fdfdfa;
 }
 
 .site-footer a:hover {
@@ -2189,7 +2189,7 @@ Accessibility Extras - Taken from the Leiden theme & Genesis Accessible plugin (
 }
 
 .screen-reader-shortcut:focus {
-  background: #fff;
+  background: #fdfdfa;
   clip: auto;
   display: block;
   height: auto;
@@ -2346,7 +2346,7 @@ Print Media Query
 
   .table td,
   .table th {
-    background-color: #fff;
+    background-color: #fdfdfa;
   }
 
   .label {
