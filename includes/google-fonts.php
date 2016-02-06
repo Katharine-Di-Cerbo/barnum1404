@@ -36,24 +36,24 @@ function utility_pro_fonts_url() {
 	 * supported by this font, translate this to 'off'. Do not translate
 	 * into your own language.
 	 */
-	$enriqueta = _x( 'on', 'Enriqueta font: on or off', 'utility-pro' );
+	$niconne = _x( 'on', 'Niconne font: on or off', 'utility-pro' );
 
 	/*
 	 * Translators: If there are characters in your language that are not
 	 * supported by this font, translate this to 'off'. Do not translate
 	 * into your own language.
 	 */
-	$open_sans = _x( 'on', 'Open Sans font: on or off', 'utility-pro' );
+	$alegreya_sans = _x( 'on', 'Alegreya Sans font: on or off', 'utility-pro' );
 
-	if ( 'off' !== $enriqueta || 'off' !== $open_sans ) {
+	if ( 'off' !== $niconne || 'off' !== $alegreya_sans ) {
 		$font_families = array();
 
-		if ( 'off' !== $enriqueta ) {
-			$font_families[] = 'Enriqueta:400,700';
+		if ( 'off' !== $niconne ) {
+			$font_families[] = 'Niconne:400';
 		}
 
-		if ( 'off' !== $open_sans ) {
-			$font_families[] = 'Open Sans:400,700';
+		if ( 'off' !== $alegreya_sans ) {
+			$font_families[] = 'Alegreya Sans:400,700';
 		}
 
 		$query_args = array(
