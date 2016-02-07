@@ -18,6 +18,9 @@ function utility_pro_homepage_setup() {
 
 	$home_sidebars = array(
 		'home_welcome' 	   => is_active_sidebar( 'utility-home-welcome' ),
+		'home_welcome-2' 	   => is_active_sidebar( 'utility-home-welcome-2' ),
+		'home_welcome-3' 	   => is_active_sidebar( 'utility-home-welcome-3' ),
+		'home_welcome-4' 	   => is_active_sidebar( 'utility-home-welcome-4' ),
 		'home_gallery_1'   => is_active_sidebar( 'utility-home-gallery-1' ),
 		'call_to_action'   => is_active_sidebar( 'utility-call-to-action' ),
 	);
@@ -36,6 +39,21 @@ function utility_pro_homepage_setup() {
 		// Add home welcome area if "Home Welcome" widget area is active.
 		if ( $home_sidebars['home_welcome'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_home_welcome' );
+		}
+		
+		// Add home welcome area 2 if "Home Welcome" widget area is active.
+		if ( $home_sidebars['home_welcome-2'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_home_welcome2' );
+		}
+		
+		// Add home welcome area 3 if "Home Welcome" widget area is active.
+		if ( $home_sidebars['home_welcome-3'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_home_welcome3' );
+		}
+		
+		// Add home welcome area 4 if "Home Welcome" widget area is active.
+		if ( $home_sidebars['home_welcome-4'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_home_welcome4' );
 		}
 
 		// Add home gallery area if "Home Gallery 1" widget area is active.
@@ -65,6 +83,36 @@ function utility_pro_homepage_setup() {
 function utility_pro_add_home_welcome() {
 
 	genesis_widget_area( 'utility-home-welcome',
+		array(
+			'before' => '<div class="home-welcome"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+function utility_pro_add_home_welcome2() {
+
+	genesis_widget_area( 'utility-home-welcome-2',
+		array(
+			'before' => '<div class="home-welcome"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+function utility_pro_add_home_welcome3() {
+
+	genesis_widget_area( 'utility-home-welcome-3',
+		array(
+			'before' => '<div class="home-welcome"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+function utility_pro_add_home_welcome4() {
+
+	genesis_widget_area( 'utility-home-welcome-4',
 		array(
 			'before' => '<div class="home-welcome"><div class="wrap">',
 			'after' => '</div></div>',
