@@ -508,7 +508,7 @@ blockquote::before {
 }
 
 pre {
-  background: #212121;
+  background: #2C2C2C;
   color: #c9c9c9;
   overflow: scroll;
   padding: 0 20px;
@@ -528,7 +528,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212121;
+  color: #2C2C2C;
   font-family: Niconne, serif;
   font-weight: 700;
   line-height: 1.25;
@@ -785,7 +785,7 @@ Structure and Layout
 }
 
 .site-inner {
-  background: #f2f1ef;
+  background: #f3edd9;
   padding-top: 40px;
 }
 
@@ -838,13 +838,13 @@ Sidebar
 
 .sidebar .widget {
   background: #fdfdfa;
-  border-top: 1px solid #212121;
+  border-top: 1px solid #2C2C2C;
   margin-bottom: 40px;
   padding: 40px;
 }
 
 .sidebar .widget-wrap {
-  border-top: 5px solid #212121;
+  border-top: 5px solid #2C2C2C;
   margin-left: 4px;
 }
 
@@ -1215,7 +1215,7 @@ img.alignnone,
 .author-box,
 .archive-description {
   background-color: #ebebeb;
-  color: #212121;
+  color: #2C2C2C;
   margin-bottom: 40px;
   padding: 40px;
 }
@@ -1305,13 +1305,13 @@ Widgets
 /* Home Welcome 2
 --------------------------------------------- */
 .home-welcome-2 {
-  background-color: rgba(51, 51, 51, 0.8);
+  background-color: #fdfdfa;
   padding: 40px 0;
   text-align: center;
 }
 
 .home-welcome-2 .widgettitle {
-  color: #fdfdfa;
+  color: #2C2C2C;
   text-transform: none;
 }
 @media screen and (min-width: 480px) {
@@ -1329,20 +1329,20 @@ Widgets
   .home-welcome-2 .textwidget {
     font-size: 40px;
     line-height: normal;
-    margin-bottom: 34px;
+    margin-bottom: #4px;
   }
 }
 
-/* Home Welcome 2
+/* Home Welcome 3
 --------------------------------------------- */
 .home-welcome-3 {
-  background-color: rgba(51, 51, 51, 0.8);
+  background-color: #fdfdfa;
   padding: 40px 0;
   text-align: center;
 }
 
 .home-welcome-3 .widgettitle {
-  color: #fdfdfa;
+  color: #5d9671;
   text-transform: none;
 }
 @media screen and (min-width: 480px) {
@@ -1364,16 +1364,16 @@ Widgets
   }
 }
 
-/* Home Welcome 3
+/* Home Welcome 4
 --------------------------------------------- */
 .home-welcome-4 {
-  background-color: rgba(51, 51, 51, 0.8);
+  background-color: #fdfdfa;
   padding: 40px 0;
   text-align: center;
 }
 
 .home-welcome-4 .widgettitle {
-  color: #fdfdfa;
+  color: #f2b639;
   text-transform: none;
 }
 @media screen and (min-width: 480px) {
@@ -1507,7 +1507,7 @@ Widgets
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
-  background: #212121;
+  background: #2C2C2C;
   color: #fdfdfa;
   padding: 40px 0;
 }
@@ -1613,7 +1613,7 @@ li a .fa {
 }
 
 .sidebar .widget.enews-widget {
-  background-color: #212121;
+  background-color: #2C2C2C;
   border-top: 1px solid #fdfdfa;
 }
 
@@ -1696,7 +1696,7 @@ Site Header
 .site-title a,
 .site-title a:hover {
   border: 0;
-  color: #212121;
+  color: #2C2C2C;
   font-family: Niconne, serif;
   font-size: 28px;
 }
@@ -1846,7 +1846,7 @@ Site Navigation
 }
 
 .genesis-nav-menu .sub-menu {
-  background-color: #121212;
+  background-color: #2C2C2C;
   clear: both;
   display: none;
   opacity: 1;
@@ -1971,7 +1971,7 @@ Site Navigation
 --------------------------------------------- */
 .nav-primary,
 .nav-footer {
-  background-color: #121212;
+  background-color: #2C2C2C;
   text-align: center;
 }
 
@@ -2011,7 +2011,7 @@ Content Area
 
 .entry-title a {
   border: 0;
-  color: #212121;
+  color: #2C2C2C;
 }
 
 .entry-title a:hover {
@@ -2025,11 +2025,11 @@ Content Area
 
 .sidebar .widgettitle a {
   border: 0;
-  color: #212121;
+  color: #2C2C2C;
 }
 
 .archive-title {
-  color: #212121;
+  color: #2C2C2C;
   margin-bottom: 24px;
 }
 
@@ -2041,7 +2041,7 @@ Content Area
 
 .entry {
   background: #fdfdfa;
-  border-top: 1px solid #212121;
+  border-top: 1px solid #2C2C2C;
   margin-bottom: 40px;
   padding: 40px 40px 24px;
   word-wrap: break-word;
@@ -2052,7 +2052,7 @@ Content Area
 }
 
 .entry-content a:hover {
-  color: #212121;
+  color: #2C2C2C;
 }
 
 .entry-content .attachment a,
@@ -2097,7 +2097,7 @@ Content Area
 }
 
 .entry-content code {
-  background-color: #212121;
+  background-color: #2C2C2C;
   color: #d9d9d9;
 }
 
@@ -2150,7 +2150,7 @@ Content Area
 
 .pagination .nav-links a,
 .pagination .nav-links .current {
-  background: #212121;
+  background: #2C2C2C;
   border: 1px solid #fdfdfa;
   color: #fdfdfa;
   cursor: pointer;
@@ -2160,8 +2160,8 @@ Content Area
 
 .pagination .nav-links a:hover {
   background: #fdfdfa;
-  border: 1px solid #212121;
-  color: #212121;
+  border: 1px solid #2C2C2C;
+  color: #2C2C2C;
 }
 
 .pagination .nav-links .current {
@@ -2303,7 +2303,7 @@ Accessibility Extras - Taken from the Leiden theme & Genesis Accessible plugin (
 
 /* Display outline on focus */
 :focus {
-  color: #212121;
+  color: #2C2C2C;
   outline: #a1a1a1 dotted thin;
 }
 
