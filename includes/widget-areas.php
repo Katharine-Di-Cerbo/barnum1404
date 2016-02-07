@@ -28,6 +28,21 @@ function utility_pro_register_widget_areas() {
 			'description' => __( 'This is the welcome section at the top of the home page.', 'utility-pro' ),
 		),
 		array(
+			'id'          => 'utility-home-welcome-2',
+			'name'        => __( 'Home Welcome', 'utility-pro' ),
+			'description' => __( 'This is the welcome section at the top of the home page.', 'utility-pro' ),
+		),
+		array(
+			'id'          => 'utility-home-welcome-3',
+			'name'        => __( 'Home Welcome', 'utility-pro' ),
+			'description' => __( 'This is the welcome section at the top of the home page.', 'utility-pro' ),
+		),
+		array(
+			'id'          => 'utility-home-welcome-4',
+			'name'        => __( 'Home Welcome', 'utility-pro' ),
+			'description' => __( 'This is the welcome section at the top of the home page.', 'utility-pro' ),
+		),
+		array(
 			'id'          => 'utility-home-gallery-1',
 			'name'        => sprintf( _x( 'Home Gallery %d', 'Group of Home Gallery widget areas', 'utility-pro' ), 1 ),
 			'description' => sprintf( _x( 'Home Gallery %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 1 ),
