@@ -94,7 +94,7 @@ function utility_pro_add_home_welcome2() {
 
 	genesis_widget_area( 'utility-home-welcome-2',
 		array(
-			'before' => '<div class="home-welcome"><div class="wrap">',
+			'before' => '<div class="home-welcome-2"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);
@@ -104,7 +104,7 @@ function utility_pro_add_home_welcome3() {
 
 	genesis_widget_area( 'utility-home-welcome-3',
 		array(
-			'before' => '<div class="home-welcome"><div class="wrap">',
+			'before' => '<div class="home-welcome-3"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);
@@ -114,7 +114,7 @@ function utility_pro_add_home_welcome4() {
 
 	genesis_widget_area( 'utility-home-welcome-4',
 		array(
-			'before' => '<div class="home-welcome"><div class="wrap">',
+			'before' => '<div class="home-welcome-4"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);
