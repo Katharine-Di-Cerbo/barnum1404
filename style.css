@@ -1275,7 +1275,7 @@ Widgets
 --------------------------------------------- */
 .home-welcome {
   background-color: rgba(51, 51, 51, 0.8);
-  padding: 40px 0;
+  padding: 22px 0;
   text-align: center;
 }
 
@@ -1308,6 +1308,7 @@ Widgets
   background-color: #fdfdfa;
   padding: 40px 0;
   text-align: center;
+  border-bottom: 5px solid #f2b639;
 }
 
 .home-welcome-2 .widgettitle {
@@ -1322,12 +1323,12 @@ Widgets
 
 .home-welcome-2 p,
 .home-welcome-2 .textwidget {
-  color: #ebebeb;
+  color: #2C2C2C;
 }
 @media screen and (min-width: 480px) {
   .home-welcome-2 p,
   .home-welcome-2 .textwidget {
-    font-size: 40px;
+    font-size: 22px;
     line-height: normal;
     margin-bottom: #4px;
   }
@@ -1339,6 +1340,7 @@ Widgets
   background-color: #fdfdfa;
   padding: 40px 0;
   text-align: center;
+  border-bottom: 5px solid #f2b639;
 }
 
 .home-welcome-3 .widgettitle {
@@ -1353,12 +1355,12 @@ Widgets
 
 .home-welcome-3 p,
 .home-welcome-3 .textwidget {
-  color: #ebebeb;
+  color: #2C2C2C;
 }
 @media screen and (min-width: 480px) {
   .home-welcome-3 p,
   .home-welcome-3 .textwidget {
-    font-size: 40px;
+    font-size: 22px;
     line-height: normal;
     margin-bottom: 34px;
   }
@@ -1384,12 +1386,12 @@ Widgets
 
 .home-welcome-4 p,
 .home-welcome-4 .textwidget {
-  color: #ebebeb;
+  color: #2C2C2C;
 }
 @media screen and (min-width: 480px) {
   .home-welcome-4 p,
   .home-welcome-4 .textwidget {
-    font-size: 40px;
+    font-size: 22px;
     line-height: normal;
     margin-bottom: 34px;
   }
@@ -2455,4 +2457,79 @@ Print Media Query
   .table-bordered td {
     border: 1px solid #d9d9d9;
   }
+}
+
+/* COLUMNS */
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+	border: 1px solid red;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }
