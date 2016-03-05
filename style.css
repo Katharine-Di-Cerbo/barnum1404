@@ -460,7 +460,7 @@ textarea:focus,
 }
 
 a {
-  color: #cc7358;
+  color: #d3755f;
   border-bottom: 1px dotted;
   font-weight: 700;
   text-decoration: none;
@@ -526,8 +526,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5, {
   color: #2C2C2C;
   font-family: Niconne, serif;
   font-weight: 700;
@@ -558,6 +557,14 @@ h5 {
 }
 
 h6 {
+  color: #ceab83;
+  font-family: "Alegreya Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
   font-size: 18px;
 }
 
@@ -601,7 +608,7 @@ textarea {
 .button,
 .entry-content a.button,
 input[type="submit"] {
-  background: #cc7358;
+  background: #d3755f;
   border: 1px solid #fdfdfa;
   color: #fdfdfa;
   cursor: pointer;
@@ -620,7 +627,7 @@ input:focus[type="submit"],
 .button:focus,
 .entry-content a.button:focus {
   background-color: #fdfdfa;
-  color: #cc7358;
+  color: #d3755f;
 }
 
 .button {
@@ -631,8 +638,8 @@ input:focus[type="submit"],
 .entry-content a.button:hover,
 input:hover[type="submit"] {
   background-color: #fdfdfa;
-  border: 1px solid #cc7358;
-  color: #cc7358;
+  border: 1px solid #d3755f;
+  color: #d3755f;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -667,7 +674,7 @@ input[type="search"]::-webkit-search-results-button {
 
 .search-form input[type="submit"]:focus,
 .search-form input[type="submit"]:hover {
-  background-color: #8f8f8f;
+  background-color: #ceab83
   background-position: 20% 53%;
   text-indent: -9999px;
 }
@@ -1242,7 +1249,7 @@ Widgets
 /* Utility Bar
 --------------------------------------------- */
 .utility-bar {
-  background-color: rgba(204, 115, 88, 0.9);
+  background-color: rgba(51, 51, 51, 0.5);
   border-bottom: 1px solid #d9d9d9;
   color: #fdfdfa;
   font-size: 14px;
@@ -1302,17 +1309,48 @@ Widgets
   }
 }
 
+/* Home Welcome b1
+--------------------------------------------- */
+.home-welcome-b1 {
+  background: url("/wp-content/themes/barnum1404/images/buttons.jpg") no-repeat;
+  background-size: cover;
+  height: 42px;
+}
+
+.home-welcome-b1 .widgettitle {
+  color: #2C2C2C;
+  text-transform: none;
+}
+@media screen and (min-width: 480px) {
+  .home-welcome-b1 .widgettitle {
+    font-size: 80px;
+  }
+}
+
+.home-welcome-b1 p,
+.home-welcome-b1 .textwidget {
+  color: #2C2C2C;
+}
+@media screen and (min-width: 480px) {
+  .home-welcome-b1 p,
+  .home-welcome-b1 .textwidget {
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: #4px;
+  }
+}
+
 /* Home Welcome 2
 --------------------------------------------- */
 .home-welcome-2 {
-  background-color: #fdfdfa;
+  background-color: #ebebeb;
   padding: 40px 0;
   text-align: center;
-  border-bottom: 5px solid #ceab83;
 }
 
 .home-welcome-2 .widgettitle {
-  color: #2C2C2C;
+  color: #212121;
+  font-family: Niconne, serif;
   text-transform: none;
 }
 @media screen and (min-width: 480px) {
@@ -1323,16 +1361,48 @@ Widgets
 
 .home-welcome-2 p,
 .home-welcome-2 .textwidget {
-  color: #2C2C2C;
+  color: #212121;
 }
 @media screen and (min-width: 480px) {
   .home-welcome-2 p,
   .home-welcome-2 .textwidget {
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 34px;
+  }
+}
+
+/* Home Welcome b2
+--------------------------------------------- */
+.home-welcome-b2 {
+  background: url("/wp-content/themes/barnum1404/images/buttons.jpg") no-repeat;
+  background-size: cover;
+  height: 42px;
+}
+
+.home-welcome-b2 .widgettitle {
+  color: #2C2C2C;
+  text-transform: none;
+}
+@media screen and (min-width: 480px) {
+  .home-welcome-b2 .widgettitle {
+    font-size: 80px;
+  }
+}
+
+.home-welcome-b2 p,
+.home-welcome-b2 .textwidget {
+  color: #2C2C2C;
+}
+@media screen and (min-width: 480px) {
+  .home-welcome-b2 p,
+  .home-welcome-b2 .textwidget {
     font-size: 22px;
     line-height: normal;
     margin-bottom: #4px;
   }
 }
+
 
 /* Home Welcome 3
 --------------------------------------------- */
@@ -1340,12 +1410,12 @@ Widgets
   background-color: #fdfdfa;
   padding: 40px 0;
   text-align: center;
-  border-bottom: 5px solid #ceab83;
 }
 
 .home-welcome-3 .widgettitle {
   color: #5d9671;
   text-transform: none;
+  font-family: Niconne, serif;
 }
 @media screen and (min-width: 480px) {
   .home-welcome-3 .widgettitle {
@@ -1360,23 +1430,55 @@ Widgets
 @media screen and (min-width: 480px) {
   .home-welcome-3 p,
   .home-welcome-3 .textwidget {
-    font-size: 22px;
+    font-size: 16px;
     line-height: normal;
     margin-bottom: 34px;
+  }
+}
+
+/* Home Welcome b3
+--------------------------------------------- */
+.home-welcome-b3 {
+  background: url("/wp-content/themes/barnum1404/images/buttons.jpg") no-repeat;
+  background-size: cover;
+  height: 42px;
+}
+
+.home-welcome-b3 .widgettitle {
+  color: #2C2C2C;
+  text-transform: none;
+}
+@media screen and (min-width: 480px) {
+  .home-welcome-b3 .widgettitle {
+    font-size: 80px;
+  }
+}
+
+.home-welcome-b3 p,
+.home-welcome-b3 .textwidget {
+  color: #2C2C2C;
+}
+@media screen and (min-width: 480px) {
+  .home-welcome-b3 p,
+  .home-welcome-b3 .textwidget {
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: #4px;
   }
 }
 
 /* Home Welcome 4
 --------------------------------------------- */
 .home-welcome-4 {
-  background-color: #fdfdfa;
+  background-color: #ebebeb;
   padding: 40px 0;
   text-align: center;
 }
 
 .home-welcome-4 .widgettitle {
-  color: #f2b639;
+  color: #f3b83a;
   text-transform: none;
+  font-family: Niconne, serif;
 }
 @media screen and (min-width: 480px) {
   .home-welcome-4 .widgettitle {
@@ -1391,7 +1493,7 @@ Widgets
 @media screen and (min-width: 480px) {
   .home-welcome-4 p,
   .home-welcome-4 .textwidget {
-    font-size: 22px;
+    font-size: 16px;
     line-height: normal;
     margin-bottom: 34px;
   }
@@ -1406,7 +1508,7 @@ Widgets
 }
 
 .home-gallery .fa {
-  color: #cc7358;
+  color: #d3755f;
 }
 
 .home-gallery .widget {
@@ -1443,7 +1545,7 @@ Widgets
 --------------------------------------------- */
 .call-to-action-bar {
   background: #333333;
-  background: rgba(51, 51, 51, 0.8);
+  background: rgba(54, 54, 54, 0.6);
   color: #fdfdfa;
   padding: 40px 0;
   text-align: center;
@@ -1505,11 +1607,12 @@ Widgets
   margin: 10px 0;
 }
 
+
 /*
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
-  background: #2C2C2C;
+  background: #545454;
   color: #fdfdfa;
   padding: 40px 0;
 }
@@ -1819,7 +1922,7 @@ Site Navigation
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-  color: #8f8f8f;
+  color: #f3edd9
 }
 
 .genesis-nav-menu .sub-menu a:hover,
@@ -1828,8 +1931,7 @@ Site Navigation
 }
 
 .genesis-nav-menu .sub-menu .current-menu-item > a {
-  color: #8f8f8f;
-}
+  color: #f3edd9}
 
 .genesis-nav-menu > .menu-item > a {
 }
@@ -1974,7 +2076,7 @@ Site Navigation
 --------------------------------------------- */
 .nav-primary,
 .nav-footer {
-  background-color: #2C2C2C;
+  background-color: rgba(54, 54, 54, 0.6);
   text-align: center;
 }
 
@@ -1982,11 +2084,11 @@ Site Navigation
 .nav-primary .current-menu-item > a,
 .nav-footer a:hover,
 .nav-footer .current-menu-item > a {
-  color: #8f8f8f;
+  color: #f3edd9
 }
 
 .nav-primary .sub-menu a:hover {
-  color: #8f8f8f;
+  color: #f3edd9
 }
 
 /* Dropdown Menu
@@ -2039,7 +2141,7 @@ Content Area
 /* Entries
 --------------------------------------------- */
 .sticky.entry {
-  border-top: 1px solid #cc7358;
+  border-top: 1px solid #d3755f;
 }
 
 .entry {
@@ -2051,7 +2153,7 @@ Content Area
 }
 
 .entry-content a {
-  color: #cc7358;
+  color: #d3755f;
 }
 
 .entry-content a:hover {
@@ -2236,7 +2338,7 @@ p.form-submit,
 Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  background-color: rgba(204, 115, 88, 0.9);
+  background-color: rgba(54, 54, 54, 0.6);
   color: #fdfdfa;
   font-size: 14px;
   padding: 40px 0;
@@ -2344,7 +2446,7 @@ Print Media Query
 
   blockquote,
   pre {
-    border: 1px solid #8f8f8f;
+    border: 1px solid #f3edd9
     page-break-inside: avoid;
   }
 
@@ -2474,7 +2576,7 @@ Print Media Query
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
-	border: 1px solid #ceab83;
+	
 }
 .col:first-child { margin-left: 0; }
 
@@ -2535,6 +2637,30 @@ Print Media Query
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }
 
+
+/*  GRID OF FIVE  */
+.span_5_of_5 {
+	width: 100%;
+}
+.span_4_of_5 {
+	width: 79.68%;
+}
+.span_3_of_5 {
+	width: 59.36%;
+}
+.span_2_of_5 {
+	width: 39.04%;
+}
+.span_1_of_5 {
+	width: 18.72%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
+}
+
 /* Traditional */
 
 .traditional {
@@ -2553,4 +2679,50 @@ Print Media Query
 	color: #f2b639;
 	font-family: niconne, serif;
 	font-size: 40px;
+}
+
+.frontpage {
+	font-size: 23px;
+}
+
+.cta {
+	color: #fdfdfa;
+	font-family: niconne, serif;
+	font-size: 40px;
+}
+
+.home .content {
+	width: 100%;
+}
+
+/* Figuring Out Image Floor Darken */
+
+.module {
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(http://kdicerbo.com/wp-content/uploads/2016/03/tester.jpg);
+  width: 368px;
+  height: 245px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+.module > header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+}
+.module > header > p {
+  margin: 0;
+  color: fdfdfa;
+}
+
+* {
+  box-sizing: border-box;
 }
